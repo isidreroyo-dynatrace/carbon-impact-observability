@@ -1,4 +1,4 @@
-# Unlock the Business Process Observability with GRAIL
+# Examples of Business Process Observability with GRAIL
 ---
 
 This is a sample for educational purposes only and not officially part of the product.  
