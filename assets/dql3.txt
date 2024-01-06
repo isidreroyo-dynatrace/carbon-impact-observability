@@ -1,0 +1,33 @@
+data 
+    //datasource1 : notification (log or bizevents)
+    record(timestamp=now()-45m, log.source="file1", betID="BET_20231019160000", start_time=1701331220000000000, winners=65),
+    record(timestamp=now()-30m, log.source="file1", betID="BET_20231019161501", start_time=1701332120000000000, winners=47),
+    record(timestamp=now()-15m, log.source="file1", betID="BET_20231019163101", start_time=1701333000000000000, winners=118),
+    //datasource2 : correlation id (log or bizevents=
+    record(timestamp=now()-43m, log.source="file2", betID="BET_20231019160000", runID="2023101900045"),
+    record(timestamp=now()-28m, log.source="file2", betID="BET_20231019161501", runID="2023101900055"),
+    record(timestamp=now()-12m, log.source="file2", betID="BET_20231019163101", runID="2023101900065"),
+    //datasource1 : online payment (log or bizevents)
+    record(timestamp=now()-41m, log.source="file3", runID="2023101900045", end_time=1701331400000000000),
+    record(timestamp=now()-26m, log.source="file3", runID="2023101900055", end_time=1701332342000000000),
+    record(timestamp=now()-10m, log.source="file3", runID="2023101900065", end_time=1701333894000000000)
+
+// correaltion based on betID
+| summarize {
+    records = if (
+        isNotNull(takeAny(end_time)), collectArray(record(runID,end_time)),
+        else: record(startTime = takeAny(start_time), runID=takeAny(runID),winners=takeAny(winners)))
+    }, by:{betID}
+| expand records
+
+// correaltion based on runID
+| summarize { 
+    startTime = takeAny(records[startTime]),betID = takeAny(betID),winners = takeAny(records[winners]), endTime = takeAny(records[end_time])
+    }, by: {runID= records[runID]}
+
+|fields start=toTimestamp(startTime), runID, betID, winners, end=toTimestamp(endTime), payment_delay=(toTimestamp(endTime)-toTimestamp(startTime))
+
+//SLO Calculation
+| summarize nbr_failed=countIf(payment_delay > 12m), total=count()
+| fieldsAdd SLO=(toDouble(total - nbr_failed) * 100 / total), target=99
+| fields SLO, target, SLO_success = if((SLO < target),false, else: true), nbr_failed, total
