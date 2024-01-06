@@ -15,7 +15,7 @@ Upload the Notbook in your Dynatrace Saas tenant or in a [free trial tenant](htt
 
 In this notebook, you will find : 
 
-1- Business Process Delivery Chain Observability (simulation)
+1- Business Process Delivery Chain Observability (simulation)  
 Click [here](https://raw.githubusercontent.com/dynatrace-ace-services/business-process-observability/main/assets/dql1.txt) to edit the dql request
 ![dql1](https://github.com/dynatrace-ace-services/business-process-observability/blob/main/assets/dql_request1.png?raw=true)
 
