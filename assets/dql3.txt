@@ -1,3 +1,4 @@
+//DQL request 3 : SLO based on Payment delay (simulated data)
 data 
     //datasource1 : notification (log or bizevents)
     record(timestamp=now()-45m, log.source="file1", betID="BET_20231019160000", start_time=1701331220000000000, winners=65),

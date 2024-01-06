@@ -1,3 +1,4 @@
+//DQL request 1 : Business Process Delivery Chain Observability (simulated data)
 data 
     record(timestamp=now()-45m, log.source="step1", content="order_ID=1095684, start_time=20231019160000986, status_step1=OK"),
     record(timestamp=now()-30m, log.source="step1", content="order_ID=1095685, start_time=20231019161501986, status_step1=OK"),
