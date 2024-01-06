@@ -15,5 +15,5 @@ Upload the Notbook in your Dynatrace Saas tenant or in a [free trial tenant](htt
 
 1- DQL request 1
     
-    ![dql1](https://github.com/dynatrace-ace-services/business-process-observability/blob/main/assets/dql_request1.png?raw=true)
+![dql1](https://github.com/dynatrace-ace-services/business-process-observability/blob/main/assets/dql_request1.png?raw=true)
     
