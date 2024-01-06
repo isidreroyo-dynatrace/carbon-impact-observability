@@ -12,3 +12,8 @@ Upload the Notbook in your Dynatrace Saas tenant or in a [free trial tenant](htt
 ![Upload](https://github.com/dynatrace-ace-services/business-process-observability/blob/main/assets/upload_notebook.png?raw=true)
 
     https://raw.githubusercontent.com/dynatrace-ace-services/business-process-observability/main/notebook/Examples_of_Business_Process_Observability_with_GRAIL.json  
+
+1- DQL request 1
+    
+    ![dql1](https://github.com/dynatrace-ace-services/business-process-observability/blob/main/assets/dql_request1.png?raw=true)
+    
