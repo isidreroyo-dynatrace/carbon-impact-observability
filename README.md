@@ -19,9 +19,8 @@ In this notebook, you will find :
 
 ![dql1](https://github.com/dynatrace-ace-services/business-process-observability/blob/main/assets/dql_request1.png?raw=true)
 
- <details open>
-  <summary>DQL request 1</summary>
-  ![dql1](https://github.com/dynatrace-ace-services/business-process-observability/blob/main/assets/dql_request1.png?raw=true)
+![dql1](https://github.com/dynatrace-ace-services/business-process-observability/blob/main/assets/dql1.txt?raw=true)     
+
 </details>
     
 2- DQL request 2 : Payment delay performance (simulation)
