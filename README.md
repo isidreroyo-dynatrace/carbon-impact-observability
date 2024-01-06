@@ -15,18 +15,18 @@ Upload the Notbook in your Dynatrace Saas tenant or in a [free trial tenant](htt
 
 ## Notebook contents : 
 
-- DQL request 1 = Business Process Delivery Chain Observability 
+- **DQL request 1** = Business Process Delivery Chain Observability 
 
 Click [here](https://raw.githubusercontent.com/dynatrace-ace-services/business-process-observability/main/assets/dql1.txt) to edit the dql request 1 with simulated data
 ![dql1](https://github.com/dynatrace-ace-services/business-process-observability/blob/main/assets/dql_request1.png?raw=true)
 
     
-- DQL request 2 = Payment delay performance
+- **DQL request 2** = Payment delay performance
 
 Click [here](https://raw.githubusercontent.com/dynatrace-ace-services/business-process-observability/main/assets/dql2.txt) to edit the dql request 2 with simulated data
 ![dql1](https://github.com/dynatrace-ace-services/business-process-observability/blob/main/assets/dql_request2.png?raw=true)
 
-- DQL request 3 = SLO based on Payment delay 
+- **DQL request 3** = SLO based on Payment delay 
 
 Click [here](https://raw.githubusercontent.com/dynatrace-ace-services/business-process-observability/main/assets/dql3.txt) to edit the dql request 3 with simulated data
 ![dql1](https://github.com/dynatrace-ace-services/business-process-observability/blob/main/assets/dql_request3.png?raw=true)
