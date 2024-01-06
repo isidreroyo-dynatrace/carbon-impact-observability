@@ -21,7 +21,7 @@ Click [here](https://raw.githubusercontent.com/dynatrace-ace-services/business-p
 ![dql1](https://github.com/dynatrace-ace-services/business-process-observability/blob/main/assets/dql_request1.png?raw=true)
 
     
-- DQL request 2 = Payment delay performance (simulation)
+- DQL request 2 = Payment delay performance
 
 Click [here](https://raw.githubusercontent.com/dynatrace-ace-services/business-process-observability/main/assets/dql2.txt) to edit the dql request with simulated data
 ![dql1](https://github.com/dynatrace-ace-services/business-process-observability/blob/main/assets/dql_request2.png?raw=true)
