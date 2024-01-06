@@ -13,9 +13,10 @@ Upload the Notbook in your Dynatrace Saas tenant or in a [free trial tenant](htt
 
     https://raw.githubusercontent.com/dynatrace-ace-services/business-process-observability/main/notebook/Examples_of_Business_Process_Observability_with_GRAIL.json  
 
-In this notebook, you will find : 
+## Ontains of notebook : 
 
-1- Business Process Delivery Chain Observability (simulation)  
+- Business Process Delivery Chain Observability 
+
 Click [here](https://raw.githubusercontent.com/dynatrace-ace-services/business-process-observability/main/assets/dql1.txt) to edit the dql request
 ![dql1](https://github.com/dynatrace-ace-services/business-process-observability/blob/main/assets/dql_request1.png?raw=true)
 
