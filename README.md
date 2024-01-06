@@ -19,7 +19,7 @@ In this notebook, you will find :
 
 ![dql1](https://github.com/dynatrace-ace-services/business-process-observability/blob/main/assets/dql_request1.png?raw=true)
 
-![dql1](https://raw.githubusercontent.com/dynatrace-ace-services/business-process-observability/main/assets/dql1.txt)     
+Click [here](https://raw.githubusercontent.com/dynatrace-ace-services/business-process-observability/main/assets/dql1.txt) to edit the dql request
 
 </details>
     
