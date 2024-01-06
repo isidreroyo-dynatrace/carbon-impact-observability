@@ -21,7 +21,7 @@ In this notebook, you will find :
 
  <details open>
   <summary>DQL request 1</summary>
-> data 
+```` data 
     record(timestamp=now()-45m, log.source="step1", content="order_ID=1095684, start_time=20231019160000986, status_step1=OK"),
     record(timestamp=now()-30m, log.source="step1", content="order_ID=1095685, start_time=20231019161501986, status_step1=OK"),
     record(timestamp=now()-15m, log.source="step1", content="order_ID=1095686, start_time=20231019163101986, status_step1=OK"),   
@@ -49,6 +49,7 @@ In this notebook, you will find :
       status_step4 = takeFirst(status_step4),
       status_step5 = takeFirst(status_step5)
       },  by: {order_ID}
+```
 </details>
     
 2- DQL request 2 : Payment delay performance (simulation)
