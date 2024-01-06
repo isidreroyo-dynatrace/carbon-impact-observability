@@ -26,3 +26,8 @@ Click [here](https://raw.githubusercontent.com/dynatrace-ace-services/business-p
 Click [here](https://raw.githubusercontent.com/dynatrace-ace-services/business-process-observability/main/assets/dql2.txt) to edit the dql request 2 with simulated data
 ![dql1](https://github.com/dynatrace-ace-services/business-process-observability/blob/main/assets/dql_request2.png?raw=true)
 
+- DQL request 3 = SLO based on Payment delay 
+
+Click [here](https://raw.githubusercontent.com/dynatrace-ace-services/business-process-observability/main/assets/dql3.txt) to edit the dql request 3 with simulated data
+![dql1](https://github.com/dynatrace-ace-services/business-process-observability/blob/main/assets/dql_request3.png?raw=true)
+
