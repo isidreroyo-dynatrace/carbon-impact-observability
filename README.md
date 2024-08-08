@@ -1,4 +1,4 @@
-# Examples of Business Process Observability with GRAIL
+# Examples of emissions and energy consumption analytics with GRAIL
 ---
 
 This is a sample for educational purposes only and not officially part of the product.  
@@ -8,7 +8,7 @@ For more information about Dynatrace please visit [dynatrace.com](https://www.dy
 
 ---
 ## Upload Notebook
-Upload the Notbook in your Dynatrace Saas tenant or in a [free trial tenant](https://www.dynatrace.com/trial) 
+Upload the Notebook in your Dynatrace Saas tenant or in a [free trial tenant](https://www.dynatrace.com/trial) 
 ![Upload](https://github.com/dynatrace-ace-services/business-process-observability/blob/main/assets/upload_notebook.png?raw=true)
 
     https://raw.githubusercontent.com/dynatrace-ace-services/business-process-observability/main/notebook/Examples_of_Business_Process_Observability_with_GRAIL.json  
